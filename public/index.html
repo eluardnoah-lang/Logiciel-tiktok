@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Datos curiosos" />
+  <meta name="theme-color" content="#1f3b2f" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧪</text></svg>" />
+  <title>Datos curiosos — générateur TikTok</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🧪 Datos curiosos</h1>
+    <button id="btnSettings" class="ghost" aria-label="Réglages">⚙️ Réglages</button>
+  </header>
+
+  <main>
+    <div id="keyWarn" class="warn hidden"></div>
+
+    <section class="card" id="newCard">
+      <label for="fact" class="big">Dato curioso</label>
+      <textarea id="fact" rows="2" placeholder="Ex. : on éternue à 160 km/h — ou en espagnol : estornudamos a 160 km/h"></textarea>
+      <button id="btnCreate" class="primary">🎬 Crear vídeo</button>
+      <p class="muted small">Le fait peut être écrit en français ou en espagnol : la vidéo sera en espagnol.</p>
+    </section>
+
+    <section class="card hidden" id="jobCard">
+      <div class="jobHead">
+        <h2 id="jobTitle"></h2>
+        <button class="ghost small" id="btnCloseJob">✕</button>
+      </div>
+      <ol class="steps">
+        <li data-step="script"><span class="lbl">1. Script</span><div class="bar"><i></i></div></li>
+        <li data-step="voice"><span class="lbl">2. Voix</span><div class="bar"><i></i></div></li>
+        <li data-step="render"><span class="lbl">3. Rendu</span><div class="bar"><i></i></div></li>
+      </ol>
+      <p id="jobMsg" class="msg"></p>
+      <div id="jobWarnings"></div>
+      <div id="jobError" class="error hidden"></div>
+
+      <!-- Relecture du script -->
+      <div id="review" class="hidden">
+        <div id="verdict" class="verdict"></div>
+        <div class="row">
+          <label>Titre <input id="edTitle" /></label>
+        </div>
+        <p class="muted small" id="wordInfo"></p>
+        <div id="scenes"></div>
+        <button class="ghost small" id="btnAddScene">+ Ajouter une scène</button>
+        <label>Légende TikTok <textarea id="edCaption" rows="2"></textarea></label>
+        <label>Hashtags <input id="edTags" /></label>
+
+        <fieldset class="voice">
+          <legend>Voix</legend>
+          <label class="radio"><input type="radio" name="vmode" value="elevenlabs" checked /> ElevenLabs (voice_id des réglages)</label>
+          <label class="radio"><input type="radio" name="vmode" value="upload" /> Mon propre MP3</label>
+          <input type="file" id="audioFile" accept="audio/*,.mp3,.m4a,.wav" class="hidden" />
+          <label class="radio"><input type="radio" name="vmode" value="local" /> Voix de test (robotique, hors-ligne)</label>
+        </fieldset>
+        <button id="btnProduce" class="primary">🎙️ Générer la voix et la vidéo</button>
+      </div>
+
+      <!-- Résultat -->
+      <div id="result" class="hidden">
+        <video id="player" controls playsinline preload="metadata"></video>
+        <div class="actions">
+          <a id="dlVideo" class="button primary" download>⬇️ Télécharger le MP4</a>
+          <a id="dlCaption" class="button" download>📝 Légende + hashtags (.txt)</a>
+          <button id="btnCopy">📋 Copier la légende</button>
+          <button id="btnRerender" class="ghost">🔁 Refaire le rendu</button>
+          <button id="btnEditAgain" class="ghost">✏️ Modifier le script</button>
+        </div>
+        <pre id="captionText" class="caption"></pre>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Historique</h2>
+      <div id="history" class="history"><p class="muted">Aucune vidéo pour l'instant.</p></div>
+    </section>
+  </main>
+
+  <dialog id="settings">
+    <form method="dialog" id="settingsForm">
+      <h2>Réglages</h2>
+      <label>voice_id ElevenLabs <input name="voiceId" autocomplete="off" /></label>
+      <div class="row">
+        <button type="button" id="btnVoices" class="ghost small">Charger mes voix</button>
+        <select id="voiceList" class="hidden"></select>
+      </div>
+      <label>Modèle de voix
+        <select name="voiceModel">
+          <option value="eleven_multilingual_v2">eleven_multilingual_v2 (recommandé)</option>
+          <option value="eleven_turbo_v2_5">eleven_turbo_v2_5 (rapide)</option>
+          <option value="eleven_flash_v2_5">eleven_flash_v2_5 (économique)</option>
+          <option value="eleven_v3">eleven_v3 (expressif)</option>
+        </select>
+      </label>
+      <label>Vitesse de la voix <span id="speedVal"></span><input type="range" name="voiceSpeed" min="0.8" max="1.2" step="0.05" /></label>
+      <label>Durée cible <span id="durVal"></span><input type="range" name="targetDuration" min="60" max="90" step="1" /></label>
+      <label class="radio"><input type="checkbox" name="music" /> Musique de fond</label>
+      <label>Volume de la musique <span id="volVal"></span><input type="range" name="musicVolume" min="0" max="0.3" step="0.01" /></label>
+      <label class="radio"><input type="checkbox" name="sfx" /> Effets sonores (whoosh, pop)</label>
+      <div class="actions">
+        <button value="cancel" class="ghost">Annuler</button>
+        <button value="save" id="btnSaveSettings" class="primary">Enregistrer</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="app.js"></script>
+</body>
+</html>

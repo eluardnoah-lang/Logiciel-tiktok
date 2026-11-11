@@ -1,0 +1,141 @@
+{
+  "fact": "El cuerpo humano produce suficiente calor en 30 minutos para hervir medio litro de agua",
+  "title": "Tu cuerpo es una estufa",
+  "verification": {
+    "verdict": "correcto",
+    "notes": "Vrai en ordre de grandeur : au repos le corps dégage ~100 W, soit ~180 kJ en 30 min ; porter 0,5 L d'eau de 20 °C à 100 °C demande ~167 kJ. Précision ajoutée : cela suffit à porter l'eau à ébullition, pas à la faire entièrement évaporer.",
+    "correctedFact": "En reposo, el cuerpo humano libera en media hora unos 180.000 julios de calor, suficientes para llevar medio litro de agua del grifo hasta la ebullición."
+  },
+  "caption": "Tu cuerpo es literalmente una estufa 🔥 ¿Lo sabías? Hagamos las cuentas 🧪",
+  "hashtags": ["#datoscuriosos", "#cuerpohumano", "#ciencia", "#sabiasque", "#aprendeentiktok"],
+  "scenes": [
+    {
+      "text": "¿Sabías que tu cuerpo es una estufa encendida?",
+      "keyword": "Estufa humana",
+      "emoji": "🔥",
+      "number": null,
+      "illustration": "Silueta humana con ondas de calor saliendo a ambos lados",
+      "svg": "<svg viewBox='0 0 800 480' xmlns='http://www.w3.org/2000/svg'><g data-anim='float'><circle cx='400' cy='95' r='48' fill='#F77F00' fill-opacity='0.35' stroke='#F8F4E3' stroke-width='8'/><rect x='345' y='155' width='110' height='170' rx='40' fill='#EF476F' fill-opacity='0.3' stroke='#F8F4E3' stroke-width='8'/><path d='M345 185 L285 285' stroke='#F8F4E3' stroke-width='9' stroke-linecap='round'/><path d='M455 185 L515 285' stroke='#F8F4E3' stroke-width='9' stroke-linecap='round'/><path d='M375 320 L360 450' stroke='#F8F4E3' stroke-width='9' stroke-linecap='round'/><path d='M425 320 L440 450' stroke='#F8F4E3' stroke-width='9' stroke-linecap='round'/></g><path d='M220 360 Q195 310 220 260 Q245 210 220 160' fill='none' stroke='#FFD166' stroke-width='8' stroke-linecap='round' data-anim='rise'/><path d='M160 380 Q135 320 160 270 Q185 220 160 170' fill='none' stroke='#EF476F' stroke-width='8' stroke-linecap='round' data-anim='rise'/><path d='M580 360 Q605 310 580 260 Q555 210 580 160' fill='none' stroke='#FFD166' stroke-width='8' stroke-linecap='round' data-anim='rise'/><path d='M640 380 Q665 320 640 270 Q615 220 640 170' fill='none' stroke='#EF476F' stroke-width='8' stroke-linecap='round' data-anim='rise'/><text x='400' y='255' font-size='40' font-weight='700' text-anchor='middle' fill='#F8F4E3'>37 °C</text></svg>"
+    },
+    {
+      "text": "En solo media hora genera calor suficiente para hervir medio litro de agua.",
+      "keyword": "30 minutos",
+      "emoji": "⏱️",
+      "number": { "value": 0.5, "decimals": 1, "prefix": "", "suffix": " L", "label": "de agua hirviendo" },
+      "illustration": "Olla con agua burbujeando sobre una llama y un reloj al lado",
+      "svg": "<svg viewBox='0 0 800 480' xmlns='http://www.w3.org/2000/svg'><path d='M180 200 L420 200 L400 380 Q398 400 378 400 L222 400 Q202 400 200 380 Z' fill='#4CC9F0' fill-opacity='0.25' stroke='#F8F4E3' stroke-width='9' stroke-linejoin='round'/><path d='M150 200 L450 200' stroke='#F8F4E3' stroke-width='10' stroke-linecap='round'/><path d='M200 260 Q300 240 400 260' fill='none' stroke='#4CC9F0' stroke-width='7' stroke-linecap='round'/><g data-anim='pulse'><circle cx='250' cy='300' r='14' fill='none' stroke='#F8F4E3' stroke-width='6'/><circle cx='320' cy='330' r='18' fill='none' stroke='#F8F4E3' stroke-width='6'/><circle cx='360' cy='290' r='11' fill='none' stroke='#F8F4E3' stroke-width='6'/></g><path d='M240 470 Q220 430 260 410 Q255 440 280 450 Q290 420 310 405 Q345 440 330 470 Z' fill='#F77F00' fill-opacity='0.6' stroke='#FFD166' stroke-width='6' data-anim='shake'/><path d='M260 180 Q245 150 260 120' fill='none' stroke='#F8F4E3' stroke-width='6' stroke-linecap='round' data-anim='rise'/><path d='M340 180 Q325 150 340 120' fill='none' stroke='#F8F4E3' stroke-width='6' stroke-linecap='round' data-anim='rise'/><circle cx='600' cy='250' r='110' fill='#FFD166' fill-opacity='0.15' stroke='#FFD166' stroke-width='9'/><path d='M600 250 L600 170' stroke='#F8F4E3' stroke-width='9' stroke-linecap='round'/><path d='M600 250 L600 330' stroke='#EF476F' stroke-width='9' stroke-linecap='round'/><path d='M600 140 A110 110 0 0 1 600 360' fill='none' stroke='#EF476F' stroke-width='14' stroke-linecap='round'/></svg>"
+    },
+    {
+      "text": "Sí, como una olla al fuego. Pero, ¿de dónde sale tanto calor?",
+      "keyword": "¿De dónde sale?",
+      "emoji": "🤔",
+      "number": null,
+      "illustration": "Lupa enorme examinando el torso de una persona",
+      "svg": "<svg viewBox='0 0 800 480' xmlns='http://www.w3.org/2000/svg'><rect x='170' y='90' width='200' height='300' rx='80' fill='#EF476F' fill-opacity='0.25' stroke='#F8F4E3' stroke-width='8'/><circle cx='270' cy='60' r='40' fill='none' stroke='#F8F4E3' stroke-width='8'/><g data-anim='float'><circle cx='470' cy='230' r='120' fill='#4CC9F0' fill-opacity='0.15' stroke='#FFD166' stroke-width='12'/><path d='M555 315 L680 440' stroke='#FFD166' stroke-width='22' stroke-linecap='round'/><text x='470' y='255' font-size='90' font-weight='700' text-anchor='middle' fill='#F8F4E3'>?</text></g></svg>"
+    },
+    {
+      "text": "Todo empieza en tus células, dentro de unas centrales diminutas: las mitocondrias.",
+      "keyword": "Mitocondrias",
+      "emoji": "⚡",
+      "number": null,
+      "illustration": "Mitocondria con sus crestas internas y rayos de energía",
+      "svg": "<svg viewBox='0 0 800 480' xmlns='http://www.w3.org/2000/svg'><g data-anim='pulse'><ellipse cx='400' cy='240' rx='280' ry='150' fill='#EF476F' fill-opacity='0.3' stroke='#F8F4E3' stroke-width='9'/><ellipse cx='400' cy='240' rx='245' ry='118' fill='none' stroke='#EF476F' stroke-width='6'/><path d='M190 240 Q215 160 240 240 Q265 320 290 240 Q315 160 340 240 Q365 320 390 240 Q415 160 440 240 Q465 320 490 240 Q515 160 540 240 Q565 320 590 240' fill='none' stroke='#FFD166' stroke-width='8' stroke-linecap='round'/></g><path d='M120 70 L90 130 L125 130 L95 190' fill='none' stroke='#FFD166' stroke-width='8' stroke-linecap='round' stroke-linejoin='round' data-anim='shake'/><path d='M690 300 L660 360 L695 360 L665 420' fill='none' stroke='#FFD166' stroke-width='8' stroke-linecap='round' stroke-linejoin='round' data-anim='shake'/><text x='400' y='450' font-size='36' font-weight='700' text-anchor='middle' fill='#06D6A0'>central de energía</text></svg>"
+    },
+    {
+      "text": "Allí queman los azúcares y las grasas que comes para fabricar energía.",
+      "keyword": "Combustible",
+      "emoji": "🍝",
+      "number": null,
+      "illustration": "Molécula de azúcar y gota de grasa entrando en una mitocondria que produce un rayo",
+      "svg": "<svg viewBox='0 0 800 480' xmlns='http://www.w3.org/2000/svg'><polygon points='120,110 170,80 220,110 220,170 170,200 120,170' fill='#FFD166' fill-opacity='0.3' stroke='#FFD166' stroke-width='8' stroke-linejoin='round'/><text x='170' y='250' font-size='34' font-weight='700' text-anchor='middle' fill='#F8F4E3'>azúcar</text><path d='M170 300 Q130 360 170 400 Q210 360 170 300 Z' fill='#F77F00' fill-opacity='0.4' stroke='#F77F00' stroke-width='8'/><text x='170' y='450' font-size='34' font-weight='700' text-anchor='middle' fill='#F8F4E3'>grasa</text><path d='M250 150 L420 220' stroke='#F8F4E3' stroke-width='8' stroke-linecap='round' data-anim='flow'/><path d='M250 360 L420 270' stroke='#F8F4E3' stroke-width='8' stroke-linecap='round' data-anim='flow'/><ellipse cx='520' cy='245' rx='110' ry='70' fill='#EF476F' fill-opacity='0.3' stroke='#F8F4E3' stroke-width='8'/><path d='M440 245 Q470 205 500 245 Q530 285 560 245 Q590 205 610 245' fill='none' stroke='#FFD166' stroke-width='6'/><path d='M700 150 L665 230 L705 230 L670 320' fill='none' stroke='#FFD166' stroke-width='10' stroke-linecap='round' stroke-linejoin='round' data-anim='pulse'/></svg>"
+    },
+    {
+      "text": "Pero ninguna máquina es perfecta: más de la mitad se escapa como calor.",
+      "keyword": "Pérdidas",
+      "emoji": "♨️",
+      "number": { "value": 60, "decimals": 0, "prefix": "+", "suffix": " %", "label": "se va en calor" },
+      "illustration": "Gráfico circular: la mayor parte de la energía se convierte en calor",
+      "svg": "<svg viewBox='0 0 800 480' xmlns='http://www.w3.org/2000/svg'><circle cx='300' cy='230' r='170' fill='#06D6A0' fill-opacity='0.3' stroke='#F8F4E3' stroke-width='8'/><path d='M300 230 L300 60 A170 170 0 1 1 138 282 Z' fill='#EF476F' fill-opacity='0.55' stroke='#F8F4E3' stroke-width='8' stroke-linejoin='round'/><path d='M560 140 Q540 110 560 80' fill='none' stroke='#EF476F' stroke-width='8' stroke-linecap='round' data-anim='rise'/><path d='M610 140 Q590 110 610 80' fill='none' stroke='#EF476F' stroke-width='8' stroke-linecap='round' data-anim='rise'/><text x='600' y='200' font-size='44' font-weight='700' text-anchor='middle' fill='#EF476F'>calor</text><text x='600' y='330' font-size='40' font-weight='700' text-anchor='middle' fill='#06D6A0'>energía útil</text></svg>"
+    },
+    {
+      "text": "En reposo, tu cuerpo produce unos cien vatios, como una bombilla antigua.",
+      "keyword": "Bombilla",
+      "emoji": "💡",
+      "number": { "value": 100, "decimals": 0, "prefix": "", "suffix": " W", "label": "en reposo" },
+      "illustration": "Bombilla incandescente encendida con rayos de luz",
+      "svg": "<svg viewBox='0 0 800 480' xmlns='http://www.w3.org/2000/svg'><path d='M400 50 C300 50 250 130 270 200 C285 250 330 280 340 330 L460 330 C470 280 515 250 530 200 C550 130 500 50 400 50 Z' fill='#FFD166' fill-opacity='0.35' stroke='#F8F4E3' stroke-width='9' stroke-linejoin='round'/><path d='M360 300 L380 200 L400 250 L420 200 L440 300' fill='none' stroke='#F77F00' stroke-width='7' stroke-linejoin='round'/><rect x='345' y='340' width='110' height='22' rx='8' fill='#B39DDB' fill-opacity='0.5' stroke='#F8F4E3' stroke-width='6'/><rect x='355' y='372' width='90' height='22' rx='8' fill='#B39DDB' fill-opacity='0.5' stroke='#F8F4E3' stroke-width='6'/><g data-anim='pulse'><path d='M190 170 L130 150' stroke='#FFD166' stroke-width='9' stroke-linecap='round'/><path d='M210 90 L160 50' stroke='#FFD166' stroke-width='9' stroke-linecap='round'/><path d='M610 170 L670 150' stroke='#FFD166' stroke-width='9' stroke-linecap='round'/><path d='M590 90 L640 50' stroke='#FFD166' stroke-width='9' stroke-linecap='round'/><path d='M200 260 L140 290' stroke='#FFD166' stroke-width='9' stroke-linecap='round'/><path d='M600 260 L660 290' stroke='#FFD166' stroke-width='9' stroke-linecap='round'/></g></svg>"
+    },
+    {
+      "text": "Cien vatios durante treinta minutos son unos ciento ochenta mil julios.",
+      "keyword": "Energía",
+      "emoji": "🔋",
+      "number": { "value": 180000, "decimals": 0, "prefix": "", "suffix": " J", "label": "en media hora" },
+      "illustration": "Bombilla por reloj igual a batería llena",
+      "svg": "<svg viewBox='0 0 800 480' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='150' width='190' height='130' rx='24' fill='#FFD166' fill-opacity='0.25' stroke='#FFD166' stroke-width='8'/><text x='135' y='232' font-size='46' font-weight='700' text-anchor='middle' fill='#F8F4E3'>100 W</text><path d='M260 190 L300 240 M300 190 L260 240' stroke='#F8F4E3' stroke-width='8' stroke-linecap='round'/><rect x='330' y='150' width='190' height='130' rx='24' fill='#4CC9F0' fill-opacity='0.25' stroke='#4CC9F0' stroke-width='8'/><text x='425' y='232' font-size='46' font-weight='700' text-anchor='middle' fill='#F8F4E3'>30 min</text><path d='M550 215 L620 215' stroke='#F8F4E3' stroke-width='9' stroke-linecap='round' data-anim='flow'/><path d='M600 195 L625 215 L600 235' fill='none' stroke='#F8F4E3' stroke-width='9' stroke-linecap='round' stroke-linejoin='round'/><g data-anim='pulse'><rect x='650' y='120' width='110' height='190' rx='18' fill='none' stroke='#06D6A0' stroke-width='9'/><rect x='680' y='100' width='50' height='22' rx='6' fill='#06D6A0'/><rect x='668' y='140' width='74' height='150' rx='10' fill='#06D6A0' fill-opacity='0.6'/></g></svg>"
+    },
+    {
+      "text": "Llevar medio litro de agua del grifo a cien grados pide unos ciento setenta mil.",
+      "keyword": "100 °C",
+      "emoji": "🌡️",
+      "number": { "value": 170000, "decimals": 0, "prefix": "", "suffix": " J", "label": "para hervir" },
+      "illustration": "Termómetro que sube de 20 a 100 grados junto a una olla",
+      "svg": "<svg viewBox='0 0 800 480' xmlns='http://www.w3.org/2000/svg'><rect x='170' y='40' width='70' height='330' rx='35' fill='none' stroke='#F8F4E3' stroke-width='9'/><circle cx='205' cy='400' r='55' fill='#EF476F' fill-opacity='0.7' stroke='#F8F4E3' stroke-width='9'/><rect x='190' y='80' width='30' height='300' rx='15' fill='#EF476F' fill-opacity='0.8' data-anim='grow'/><path d='M260 360 L290 360' stroke='#F8F4E3' stroke-width='6' stroke-linecap='round'/><text x='345' y='372' font-size='38' font-weight='700' text-anchor='middle' fill='#4CC9F0'>20 °C</text><path d='M260 90 L290 90' stroke='#F8F4E3' stroke-width='6' stroke-linecap='round'/><text x='355' y='102' font-size='38' font-weight='700' text-anchor='middle' fill='#EF476F'>100 °C</text><path d='M470 230 L690 230 L672 390 Q670 410 650 410 L510 410 Q490 410 488 390 Z' fill='#4CC9F0' fill-opacity='0.3' stroke='#F8F4E3' stroke-width='9' stroke-linejoin='round'/><path d='M445 230 L715 230' stroke='#F8F4E3' stroke-width='10' stroke-linecap='round'/><path d='M540 210 Q525 175 540 140' fill='none' stroke='#F8F4E3' stroke-width='7' stroke-linecap='round' data-anim='rise'/><path d='M620 210 Q605 175 620 140' fill='none' stroke='#F8F4E3' stroke-width='7' stroke-linecap='round' data-anim='rise'/></svg>"
+    },
+    {
+      "text": "¡Las cuentas salen! Eso sí: hervir, no evaporarla toda.",
+      "keyword": "¡Cuadra!",
+      "emoji": "✅",
+      "number": null,
+      "illustration": "Balanza equilibrada con 180.000 de un lado y 170.000 del otro",
+      "svg": "<svg viewBox='0 0 800 480' xmlns='http://www.w3.org/2000/svg'><path d='M400 420 L400 110' stroke='#F8F4E3' stroke-width='10' stroke-linecap='round'/><path d='M320 430 L480 430' stroke='#F8F4E3' stroke-width='12' stroke-linecap='round'/><path d='M170 130 L630 120' stroke='#FFD166' stroke-width='10' stroke-linecap='round'/><path d='M170 130 L120 260 L220 260 Z' fill='#EF476F' fill-opacity='0.3' stroke='#F8F4E3' stroke-width='7' stroke-linejoin='round'/><path d='M630 120 L580 250 L680 250 Z' fill='#4CC9F0' fill-opacity='0.3' stroke='#F8F4E3' stroke-width='7' stroke-linejoin='round'/><text x='170' y='310' font-size='38' font-weight='700' text-anchor='middle' fill='#EF476F'>180.000</text><text x='630' y='300' font-size='38' font-weight='700' text-anchor='middle' fill='#4CC9F0'>170.000</text><path d='M330 330 L380 380 L480 270' fill='none' stroke='#06D6A0' stroke-width='16' stroke-linecap='round' stroke-linejoin='round' data-anim='pulse'/></svg>"
+    },
+    {
+      "text": "Y ahora lo bestia: si corres a tope, puedes multiplicar ese calor hasta por diez.",
+      "keyword": "¡A tope!",
+      "emoji": "🏃",
+      "number": { "value": 10, "decimals": 0, "prefix": "x", "suffix": "", "label": "más calor" },
+      "illustration": "Corredor con líneas de velocidad y llamas",
+      "svg": "<svg viewBox='0 0 800 480' xmlns='http://www.w3.org/2000/svg'><g data-anim='shake'><circle cx='450' cy='90' r='40' fill='#F77F00' fill-opacity='0.4' stroke='#F8F4E3' stroke-width='8'/><path d='M440 135 L400 270' stroke='#F8F4E3' stroke-width='11' stroke-linecap='round'/><path d='M430 170 L510 210 L540 160' fill='none' stroke='#F8F4E3' stroke-width='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M430 170 L360 200 L330 260' fill='none' stroke='#F8F4E3' stroke-width='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M400 270 L470 330 L450 420' fill='none' stroke='#F8F4E3' stroke-width='11' stroke-linecap='round' stroke-linejoin='round'/><path d='M400 270 L340 340 L260 350' fill='none' stroke='#F8F4E3' stroke-width='11' stroke-linecap='round' stroke-linejoin='round'/></g><path d='M120 150 L280 150' stroke='#4CC9F0' stroke-width='8' stroke-linecap='round' data-anim='flow'/><path d='M80 230 L260 230' stroke='#4CC9F0' stroke-width='8' stroke-linecap='round' data-anim='flow'/><path d='M130 310 L250 310' stroke='#4CC9F0' stroke-width='8' stroke-linecap='round' data-anim='flow'/><path d='M620 300 Q590 240 640 200 Q635 250 670 260 Q680 220 700 200 Q740 260 710 310 Z' fill='#EF476F' fill-opacity='0.6' stroke='#FFD166' stroke-width='6' data-anim='pulse'/></svg>"
+    },
+    {
+      "text": "Tu olla herviría en pocos minutos. Por eso, cuando entrenas, sudas a chorros.",
+      "keyword": "Sudor",
+      "emoji": "💦",
+      "number": null,
+      "illustration": "Cara sudando con gotas que caen",
+      "svg": "<svg viewBox='0 0 800 480' xmlns='http://www.w3.org/2000/svg'><circle cx='400' cy='240' r='170' fill='#F77F00' fill-opacity='0.25' stroke='#F8F4E3' stroke-width='9'/><circle cx='340' cy='210' r='18' fill='#F8F4E3'/><circle cx='460' cy='210' r='18' fill='#F8F4E3'/><path d='M330 310 Q400 350 470 310' fill='none' stroke='#F8F4E3' stroke-width='9' stroke-linecap='round'/><path d='M300 160 L360 175' stroke='#F8F4E3' stroke-width='8' stroke-linecap='round'/><path d='M500 160 L440 175' stroke='#F8F4E3' stroke-width='8' stroke-linecap='round'/><g data-anim='float'><path d='M590 120 Q560 170 590 195 Q620 170 590 120 Z' fill='#4CC9F0' fill-opacity='0.7' stroke='#4CC9F0' stroke-width='5'/><path d='M640 240 Q615 285 640 305 Q665 285 640 240 Z' fill='#4CC9F0' fill-opacity='0.7' stroke='#4CC9F0' stroke-width='5'/><path d='M200 150 Q175 195 200 215 Q225 195 200 150 Z' fill='#4CC9F0' fill-opacity='0.7' stroke='#4CC9F0' stroke-width='5'/><path d='M170 290 Q145 335 170 355 Q195 335 170 290 Z' fill='#4CC9F0' fill-opacity='0.7' stroke='#4CC9F0' stroke-width='5'/></g></svg>"
+    },
+    {
+      "text": "Cada litro de sudor que se evapora se lleva unas quinientas ochenta kilocalorías.",
+      "keyword": "Evaporación",
+      "emoji": "❄️",
+      "number": { "value": 580, "decimals": 0, "prefix": "", "suffix": " kcal", "label": "por litro" },
+      "illustration": "Gota de sudor evaporándose y llevándose el calor hacia arriba",
+      "svg": "<svg viewBox='0 0 800 480' xmlns='http://www.w3.org/2000/svg'><path d='M120 400 L680 400' stroke='#F77F00' stroke-width='10' stroke-linecap='round'/><text x='400' y='455' font-size='36' font-weight='700' text-anchor='middle' fill='#F77F00'>piel</text><path d='M400 210 Q340 300 400 370 Q460 300 400 210 Z' fill='#4CC9F0' fill-opacity='0.6' stroke='#F8F4E3' stroke-width='8'/><path d='M280 330 Q260 270 290 220 Q310 180 290 130' fill='none' stroke='#F8F4E3' stroke-width='7' stroke-linecap='round' data-anim='rise'/><path d='M520 330 Q540 270 510 220 Q490 180 510 130' fill='none' stroke='#F8F4E3' stroke-width='7' stroke-linecap='round' data-anim='rise'/><path d='M400 180 L400 60' stroke='#EF476F' stroke-width='9' stroke-linecap='round' data-anim='flow'/><path d='M370 90 L400 55 L430 90' fill='none' stroke='#EF476F' stroke-width='9' stroke-linecap='round' stroke-linejoin='round'/><g data-anim='spin'><path d='M640 80 L640 200 M588 110 L692 170 M588 170 L692 110' stroke='#4CC9F0' stroke-width='8' stroke-linecap='round'/></g></svg>"
+    },
+    {
+      "text": "Es tu aire acondicionado natural: sin él, en pleno esfuerzo te sobrecalentarías.",
+      "keyword": "Aire acondicionado",
+      "emoji": "🥵",
+      "number": null,
+      "illustration": "Aparato de aire acondicionado soplando aire fresco sobre un termómetro",
+      "svg": "<svg viewBox='0 0 800 480' xmlns='http://www.w3.org/2000/svg'><rect x='130' y='70' width='540' height='150' rx='30' fill='#F8F4E3' fill-opacity='0.2' stroke='#F8F4E3' stroke-width='9'/><path d='M170 180 L630 180' stroke='#F8F4E3' stroke-width='6' stroke-linecap='round'/><circle cx='610' cy='115' r='14' fill='#06D6A0'/><path d='M220 260 Q240 320 210 380' fill='none' stroke='#4CC9F0' stroke-width='8' stroke-linecap='round' data-anim='flow'/><path d='M330 260 Q350 320 320 380' fill='none' stroke='#4CC9F0' stroke-width='8' stroke-linecap='round' data-anim='flow'/><path d='M440 260 Q460 320 430 380' fill='none' stroke='#4CC9F0' stroke-width='8' stroke-linecap='round' data-anim='flow'/><rect x='560' y='260' width='44' height='170' rx='22' fill='none' stroke='#F8F4E3' stroke-width='7'/><rect x='572' y='330' width='20' height='90' rx='10' fill='#EF476F' data-anim='pulse'/></svg>"
+    },
+    {
+      "text": "Así que la próxima vez que tengas frío, recuerda: llevas una estufa dentro.",
+      "keyword": "Estufa interior",
+      "emoji": "❤️‍🔥",
+      "number": null,
+      "illustration": "Silueta humana con una llama brillando en el pecho",
+      "svg": "<svg viewBox='0 0 800 480' xmlns='http://www.w3.org/2000/svg'><circle cx='400' cy='80' r='50' fill='none' stroke='#F8F4E3' stroke-width='8'/><path d='M300 470 L300 230 Q300 150 400 150 Q500 150 500 230 L500 470' fill='#4CC9F0' fill-opacity='0.15' stroke='#F8F4E3' stroke-width='8' stroke-linejoin='round'/><path d='M400 370 Q340 330 360 270 Q375 300 395 300 Q380 250 420 220 Q425 270 455 285 Q470 340 400 370 Z' fill='#F77F00' fill-opacity='0.7' stroke='#FFD166' stroke-width='7' data-anim='pulse'/><path d='M200 200 L240 220 M190 280 L240 280 M200 360 L240 340' stroke='#4CC9F0' stroke-width='7' stroke-linecap='round'/><path d='M600 200 L560 220 M610 280 L560 280 M600 360 L560 340' stroke='#4CC9F0' stroke-width='7' stroke-linecap='round'/><text x='130' y='290' font-size='40' font-weight='700' text-anchor='middle' fill='#4CC9F0'>frío</text></svg>"
+    },
+    {
+      "text": "¿Lo sabías? Cuéntamelo en comentarios. Sígueme para más datos curiosos.",
+      "keyword": "¡Sígueme!",
+      "emoji": "👉",
+      "number": null,
+      "illustration": "Botón de seguir gigante con un corazón que late",
+      "svg": "<svg viewBox='0 0 800 480' xmlns='http://www.w3.org/2000/svg'><g data-anim='pulse'><rect x='190' y='150' width='420' height='130' rx='65' fill='#EF476F' fill-opacity='0.75' stroke='#F8F4E3' stroke-width='8'/><text x='400' y='235' font-size='60' font-weight='700' text-anchor='middle' fill='#F8F4E3'>SEGUIR</text></g><path d='M400 420 C340 370 300 340 330 310 C350 290 385 300 400 325 C415 300 450 290 470 310 C500 340 460 370 400 420 Z' fill='#EF476F' fill-opacity='0.6' stroke='#FFD166' stroke-width='6' data-anim='float'/><path d='M120 120 L150 60 M680 120 L650 60 M100 330 L50 350 M700 330 L750 350' stroke='#FFD166' stroke-width='8' stroke-linecap='round'/></svg>"
+    }
+  ]
+}

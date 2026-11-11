@@ -1,0 +1,15 @@
+{
+  "name": "Datos curiosos — générateur TikTok",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22-bookworm",
+  "hostRequirements": { "cpus": 4, "memory": "8gb" },
+  "postCreateCommand": "bash scripts/setup-linux.sh && npm ci && npx remotion browser ensure",
+  "postAttachCommand": "npm start",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": { "label": "Générateur de vidéos", "onAutoForward": "openBrowser" }
+  },
+  "secrets": {
+    "ANTHROPIC_API_KEY": { "description": "Clé API Claude (console.anthropic.com)" },
+    "ELEVENLABS_API_KEY": { "description": "Clé API ElevenLabs (elevenlabs.io)" }
+  }
+}
